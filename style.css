@@ -1,0 +1,55 @@
+﻿body{
+  background:#ffc107;font-family: 'Source Sans Pro', sans-serif;
+}
+h1{display:inline-block;position:relative; font-weight:300; width:0; font-size:60px; color:#333;line-height:60px;margin:0;padding:0 5px;background-color:#ffc107; transition:0.5s ease;  white-space: nowrap;}
+h2{color:#666; font-size:20px;line-height:20px;margin:0;padding:0; margin-left:5px;}
+h3{color:#333; font-size:40px;}
+h1:hover{background-color:#333; color:#ffc107; width:295px; cursor:default;}
+.info{margin-top:70px;}
+.projects{margin-top:30px; margin-left:5px;}
+ul.mylist{list-style-position:inside; margin:0;padding:0;}
+ul.mylist li{list-style:none;}
+ul.mylist li a{text-decoration: none; font-size:20px; color:#333; font-family: 'Inconsolata', monospace;
+    /*display: inline-block;
+    position:relative;
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s cubic-bezier(0.4, 0, 1, 1);
+    white-space: nowrap;
+    height: 30px;*/}
+ul.mylist li a#a1:hover{border-bottom: 3px solid #333;width:160px;}
+ul.mylist li a#a2:hover{border-bottom: 3px solid #333;width:170px;}
+ul.mylist li a#a3:hover{border-bottom: 3px solid #333;width:120px;}
+ul.mylist li a#a4:hover{border-bottom: 3px solid #333;width:90px;}
+ul.mylist li a#a5:hover{border-bottom: 3px solid #333;width:70px;}
+ul.mylist li a#a6:hover{border-bottom: 3px solid #333;width:110px;}
+ul.mylist li a#a7:hover{border-bottom: 3px solid #333;width:80px;}
+
+ul.social{margin-top:100px;}
+ul.social li a{font-size:22px;color:#333;transition:0.5s ease;}
+ul.social li a:hover{color:#304ffd;}
+
+
+.borderLeftRight {
+    display: inline-block;
+    position: relative;
+    color: #333;
+}
+
+    .borderLeftRight::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        transform-origin: bottom right;
+        transition: transform 0.7s cubic-bezier(0.86, 0, 0.07, 1);
+    }
+
+    .borderLeftRight:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
